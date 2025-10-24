@@ -1,0 +1,47 @@
+VM1874:1 Console was cleared
+undefined
+console.log(" Welcome to JavaScript Console Lab!" )
+VM1883:1  Welcome to JavaScript Console Lab!
+undefined
+let score = 100; const PI = 3.14159; var username = "DevExplorer"; 
+undefined
+console.log(`Score: ${score}, PI: ${PI}, User: ${username}`); 
+VM1892:1 Score: 100, PI: 3.14159, User: DevExplorer
+undefined
+const circleArea = (radius) => Math.PI * radius ** 2; console.log("Area of circle (r=5):", circleArea(5)); 
+VM1896:1 Area of circle (r=5): 78.53981633974483
+undefined
+let userAge = prompt("How old are you?"); 
+undefined
+if (userAge >= 18) console.log(" Access granted!"); else console.log("❌ Sorry, adults only."); 
+VM1904:1  Access granted!
+undefined
+let dayNum = parseInt(prompt("Enter a number (1-7):")); switch (dayNum) { case 1: console.log("Sunday "); break; case 2: console.log("Monday "); break; default: console.log("Invalid input!"); } 
+VM1908:1 Invalid input!
+undefined
+for (let i=2; i<=10; i+=2){
+    console.log(`Even number: ${i}`);}
+VM2033:2 Even number: 2
+VM2033:2 Even number: 4
+VM2033:2 Even number: 6
+VM2033:2 Even number: 8
+VM2033:2 Even number: 10
+undefined
+let fruits = ["Apple", "Banana", "Orange"];
+undefined
+fruits.push("Grapes");
+4
+console.log("Second fruit:", fruits[1]);
+VM2385:1 Second fruit: Banana
+undefined
+let userSettings = newMap();
+VM2469:1 Uncaught ReferenceError: newMap is not defined
+    at <anonymous>:1:20
+(anonymous) @ VM2469:1
+let userSettings = new Map();
+undefined
+userSettings.set("theme", "dark");
+Map(1) {'theme' => 'dark'}[[Entries]]0: {"theme" => "dark"}size: 1[[Prototype]]: Map
+console.log("Curent theme:", userSettings.get("theme"));
+VM2677:1 Curent theme: dark
+undefined
